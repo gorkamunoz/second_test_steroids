@@ -1,0 +1,12 @@
+title: roots of Littlewood polynomials
+status: planned
+parents: []
+created: '2026-11-18'
+author: agent:worker
+outputs_on: gorkamunoz
+hypothesis: The complex roots of all 2^18 degree-18 polynomials with ±1 coefficients cluster near the unit circle (all lie in 1/2<|z|<2) but leave visible holes around low-order roots of unity, giving a fractal-looking density.
+conclusion: ''
+tags: []
+metrics: {}
+wiki: []
+threads: []

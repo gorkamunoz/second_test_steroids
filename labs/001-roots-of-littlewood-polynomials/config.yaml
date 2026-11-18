@@ -1,0 +1,8 @@
+# Roots of all Littlewood polynomials p(z) = sum_{k=0}^{n} a_k z^k, a_k in {-1,+1}.
+# Leading coefficient fixed to +1 (p and -p have the same roots), so 2^degree polynomials.
+degree: 20          # n; 2^20 = 1,048,576 polynomials, 21M roots
+chunk: 16384        # companion matrices per batched eigvals call
+seed: null          # deterministic: exhaustive enumeration, no randomness
+grid:
+  full:  {xlim: [-1.75, 1.75], ylim: [-1.75, 1.75], bins: 1400}
+  zoom:  {xlim: [0.45, 0.80], ylim: [0.10, 0.45], bins: 700}

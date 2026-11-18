@@ -18,3 +18,5 @@ dependencies:
       - pytest
       - httpx
       # research dependencies: add below
+      - numpy
+      - matplotlib
